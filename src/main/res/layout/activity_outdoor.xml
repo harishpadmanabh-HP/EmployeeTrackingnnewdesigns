@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Outdoor">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/backimagebutton"
+                android:onClick="backimagepress"
+                android:background="@drawable/backbuttonimagebutton"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field Work"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/taskheadingoutdoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Heading"
+            android:textStyle="bold"
+            android:textColor="#2f6aca"
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/taskdetailsoutdoor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task details"
+            android:textStyle="normal"
+            android:textColor="#111316"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/starttaskoutdoor"
+            android:layout_width="match_parent"
+            android:layout_margin="25dp"
+            android:layout_height="wrap_content"
+            android:text="Start Task"
+            android:background="@drawable/roundbtn"
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            />
+
+        <!--<EditText-->
+            <!--android:id="@+id/taskupdatesoutdoor"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="25dp"-->
+            <!--android:hint="Task dtails and updates"-->
+            <!--/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completed ?"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+
+                />
+            <RadioGroup
+                android:id="@+id/radiogroupoutdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/yesreadiooutdoor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginLeft="15dp"
+                    />
+                <RadioButton
+                    android:id="@+id/noradiooutdoor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginLeft="15dp"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonendtimeoutdoor"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content"
+            android:text="End Task"
+            android:background="@drawable/roundbtn"
+            android:textColor="#fff"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

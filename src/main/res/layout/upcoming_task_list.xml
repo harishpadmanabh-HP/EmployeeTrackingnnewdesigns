@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_button">
+
+            <TextView
+                android:id="@+id/textView_monthupcomingtask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="22 " />
+
+            <TextView
+                android:id="@+id/texView_dateupcomingtask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_monthupcomingtask"
+                android:layout_centerHorizontal="true"
+                android:text="22"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:background="#fff"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_up_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:text="TextView" />
+
+        <TextView
+            android:textColor="#000000"
+
+            android:id="@+id/textView_up_task_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="TextView"/>
+
+        <TextView
+            android:textColor="#000000"
+
+            android:id="@+id/textView_up_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:text="TextView"/>
+        <TextView
+            android:id="@+id/textView_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+
+            android:text="COMPLETED"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="5dp"
+            android:textColor="#5bb646"
+            android:background="@drawable/strokefortext"
+            android:layout_marginRight="5dp"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

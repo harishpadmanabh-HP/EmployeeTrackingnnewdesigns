@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/si_logo"
+   android:layout_gravity="center"
+    android:layout_marginTop="60dp"
+    />
+    <EditText
+        android:id="@+id/editText_user_mail"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:background="@drawable/strokeedittext"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_person_black_24dpnew"
+        android:paddingLeft="20dp"
+        android:textAlignment="gravity"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_person_black_24dpnew" />
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:background="@drawable/strokeedittext"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="gravity"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:paddingRight="20dp"
+
+
+        android:drawableLeft="@drawable/ic_lock_black_24dp" />
+    <Button
+        android:id="@+id/button_log_in"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:textAlignment="gravity"
+        android:text="Log In"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbtn"
+         android:translationZ="30dp"
+        android:elevation="30dp"
+        android:layout_marginTop="70dp"/>
+    </LinearLayout>
+</ScrollView>
